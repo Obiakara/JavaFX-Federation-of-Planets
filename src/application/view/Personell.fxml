@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.PersonnelController">
+   <children>
+      <AnchorPane layoutX="-100.0" layoutY="-100.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="logOutButton" layoutX="680.0" layoutY="7.0" mnemonicParsing="false" onAction="#onClickLogOutButton" prefHeight="25.0" prefWidth="109.0" text="Sign out">
+               <font>
+                  <Font name="Book Antiqua Bold" size="14.0" />
+               </font>
+            </Button>
+            <HBox layoutX="14.0" layoutY="171.0" spacing="82.0">
+               <children>
+                  <VBox layoutX="14.0" layoutY="171.0">
+                     <children>
+                        <ImageView fx:id="image1" fitHeight="122.0" fitWidth="131.0" layoutX="14.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label1A" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="300.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label1B" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="317.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="195.0" layoutY="171.0">
+                     <children>
+                        <ImageView fx:id="image2" fitHeight="122.0" fitWidth="131.0" layoutX="195.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label2A" alignment="CENTER" contentDisplay="CENTER" layoutX="195.0" layoutY="300.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label2B" alignment="CENTER" contentDisplay="CENTER" layoutX="195.0" layoutY="317.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="376.0" layoutY="171.0">
+                     <children>
+                        <ImageView fx:id="image3" fitHeight="122.0" fitWidth="131.0" layoutX="376.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label3A" alignment="CENTER" contentDisplay="CENTER" layoutX="376.0" layoutY="300.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label3B" alignment="CENTER" contentDisplay="CENTER" layoutX="376.0" layoutY="317.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="557.0" layoutY="171.0">
+                     <children>
+                        <ImageView fx:id="image4" fitHeight="122.0" fitWidth="131.0" layoutX="557.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label4A" alignment="CENTER" contentDisplay="CENTER" layoutX="557.0" layoutY="300.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label4B" alignment="CENTER" contentDisplay="CENTER" layoutX="557.0" layoutY="317.0" prefHeight="17.0" prefWidth="171.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="6.0" layoutY="390.0" spacing="82.0">
+               <children>
+                  <VBox layoutX="6.0" layoutY="390.0">
+                     <children>
+                        <ImageView fx:id="image5" fitHeight="122.0" fitWidth="131.0" layoutX="14.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label5A" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="521.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label5B" alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="538.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="187.0" layoutY="390.0">
+                     <children>
+                        <ImageView fx:id="image6" fitHeight="122.0" fitWidth="131.0" layoutX="195.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label6A" alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="521.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label6B" alignment="CENTER" contentDisplay="CENTER" layoutX="187.0" layoutY="538.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="368.0" layoutY="390.0">
+                     <children>
+                        <ImageView fx:id="image7" fitHeight="122.0" fitWidth="131.0" layoutX="376.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label7A" alignment="CENTER" contentDisplay="CENTER" layoutX="368.0" layoutY="521.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label7B" alignment="CENTER" contentDisplay="CENTER" layoutX="368.0" layoutY="538.0" prefHeight="17.0" prefWidth="181.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="549.0" layoutY="390.0">
+                     <children>
+                        <ImageView fx:id="image8" fitHeight="122.0" fitWidth="131.0" layoutX="557.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="label8A" alignment="CENTER" contentDisplay="CENTER" layoutX="549.0" layoutY="521.0" prefHeight="17.0" prefWidth="131.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="label8B" alignment="CENTER" contentDisplay="CENTER" layoutX="549.0" layoutY="538.0" prefHeight="17.0" prefWidth="197.0" wrapText="true">
+                           <font>
+                              <Font name="Bookman Old Style Italic" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <ImageView fitHeight="99.0" fitWidth="109.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../data/images/logo.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="labelA" alignment="CENTER" layoutX="169.0" layoutY="27.0" prefHeight="36.0" prefWidth="377.0" textFill="#3b0ce8">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font></Label>
+            <Label fx:id="labelB" layoutX="169.0" layoutY="88.0" prefHeight="36.0" prefWidth="377.0" textFill="#3b0ce8">
+               <font>
+                  <Font name="Book Antiqua Bold" size="22.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
